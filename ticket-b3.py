@@ -2,7 +2,6 @@ from pandas_datareader import data
 import pandas as pd
 from IPython.display import display
 from datetime import date
-from tkinter import *
 
 
 
