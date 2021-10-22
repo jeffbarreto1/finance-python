@@ -27,8 +27,6 @@ def obter_cotacoes():
     Libre Esterlina: {cotacao_gbp}
     Bitcoin: {cotacao_btc}\n
     Obrigado por utilizar nosso serviço!\n'''
-    
-    #text_currencie_gui["text"] = "TESTE"
 
     text_currencie_gui["text"] = text_currencie
 
