@@ -33,6 +33,7 @@ def obter_cotacoes():
 ### INTERFACE GRÁFICA ###
 
 root = Tk()
+
 root.title("Cotação de Moedas")
 root.geometry("300x210")
 root.resizable(False,False)
@@ -42,7 +43,5 @@ text_guide = Label(root,text="\nClique no botão para obter a cotação atual da
 btn = Button(root, text="Obter", command=obter_cotacoes).grid(column=0, row=1)
 text_currencie_gui = Label(root, text="Wait...",foreground="red")
 text_currencie_gui.grid(column=0,row=2)
-
-
 
 root.mainloop()
